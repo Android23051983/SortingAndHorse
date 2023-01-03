@@ -5,7 +5,7 @@ int[] row = new int[64];
 int[] col = new int[64];
 int[] ktmov = { -2, -1, 1, 2, 2, 1, -1, -2 };
 int[] ktmov2 = { 1, 2, 2, 1, -1, -2, -2, -1 };
-int i =0, j = 0, move_num = 0, d;
+int i = 0, j = 0, move_num = 0, d = 0;
 addknight();
 void addknight()
 {
